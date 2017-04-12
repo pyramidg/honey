@@ -25,8 +25,9 @@
   <body >
 
     <!-- Navigation -->
-       <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
            <div class="container">
+             <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
                <!-- Brand and toggle get grouped for better mobile display -->
                <div class="navbar-header">
                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -81,6 +82,13 @@
                        <h2>Caption 2</h2>
                    </div>
                </div>
+               <div class="item">
+                   <!-- Set the second background image using inline CSS below. -->
+                   <div class="fill" style="background-image:url('https://c1.staticflickr.com/3/2911/33844445382_d306817121_b.jpg Three');"></div>
+                   <div class="carousel-caption">
+                       <h2>Caption 2</h2>
+                   </div>
+               </div>
 
                </div>
            </div>
@@ -94,7 +102,7 @@
            </a>
 
        </header>
-<br><br><br><br><br>
+<br><br><br>
        <!-- Page Content -->
        <div class="container">
          <div class="row">
@@ -109,7 +117,7 @@
                             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                         </ol>
-                        <div class="carousel-inner">
+                        <div class="carousel-inner two">
                             <div class="item active">
                                 <img class="slide-image " src="https://c1.staticflickr.com/3/2820/33615312160_170413f2bc_o.png" alt="">
                             </div>
@@ -118,14 +126,15 @@
                             </div>
 
                         </div>
+
                         <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left"></span>
                         </a>
                         <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
                             <span class="glyphicon glyphicon-chevron-right"></span>
                         </a>
-                        <br><br>
-                    </div>
+
+                    </div>  <br>
 
 
 
@@ -135,18 +144,90 @@
 
          <div class="col-lg-4">
            <img class='img-responsive' src="https://c2.staticflickr.com/4/3928/33615311810_2a77856078_o.png" alt="">
-           <br><br>
+          <br>
            <img class='img-responsive' src="https://c1.staticflickr.com/3/2907/33157470664_0ccacf28f0_o.png" alt="">
 
          </div>
 
 
 
-         </div>
+       </div><!-- / end row -->
+       <br><br>
+
+         <!-- Page Features -->
+        <div class="row text-center">
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/800x500" alt="">
+                    <div class="caption">
+                        <h3>Feature Label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/800x500" alt="">
+                    <div class="caption">
+                        <h3>Feature Label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/800x500" alt="">
+                    <div class="caption">
+                        <h3>Feature Label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/800x500" alt="">
+                    <div class="caption">
+                        <h3>Feature Label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.row -->
 
 
 
            <!-- Footer -->
+           <hr>
+
+       <!-- Footer -->
+       <footer>
+           <div class="row">
+               <div class="col-lg-12">
+                   <p>Copyright &copy; Your New Website 2017</p>
+               </div>
+           </div>
+       </footer>
+
+
+   <!-- /.container -->
 
  </div>
 
